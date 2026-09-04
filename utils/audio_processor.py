@@ -83,7 +83,7 @@ def download_youtube_audio(url: str) -> str:
     ydl_opts = {
         # YouTube JavaScript runtime
         "js_runtimes": {
-            "node": "/usr/bin/node"
+            "node": {}
         },
 
         # Download EJS components
